@@ -2,7 +2,7 @@
 # list1 = [3,4,2,1,3,3]
 # list2 = [4,3,5,3,9,3]
 
-with open("1.txt", 'r') as file:
+with open("01.txt", 'r') as file:
 	data = [x.split() for x in file.readlines()]
 	list1 = sorted([int(line[0]) for line in data])
 	list2 = sorted([int(line[1]) for line in data])
