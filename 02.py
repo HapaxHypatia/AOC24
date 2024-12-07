@@ -20,6 +20,7 @@ def is_safe(report):
 			return False
 	return True
 
+
 with open("02.txt", 'r') as file:
 	data = [x.strip().split() for x in file.readlines()]
 
